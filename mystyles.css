@@ -1,0 +1,56 @@
+/*General*/
+body {font-size: 100%; margin: 0; }
+.normal_text {color: rgb(40,40,40) !important; font-size: 120%; font-family: "Roboto"; }
+.heading_text {color: rgb(0, 0, 0) !important;font-size: 300%; font-family: 'Times New Roman', Times, serif; font-weight: bold; }
+.section {width: 100%; height: 90vh; padding-top: 10vh;}
+.image {background-repeat: no-repeat; background-size: contain; background-position: center;}
+.text_block {line-height: 0.4; text-align-last:center ;}
+/*Menue Bar */
+#menu_bar {width: 100%; background-color: rgb(40, 30,70) !important; z-index: 5 ; position: fixed; top: 0; right: 0; padding: 0.5%; padding-right: 5%;}
+#menu_bar .menu_item {display: inline; }
+#menu_bar .menu_item a{padding: 1% 2%; text-decoration: none; float: right ;color: white !important ;}
+#menu_logo {display: inline;}
+#menu_logo .image{width:100px;height:50px;background-image:url(images/logo.png);display:inline-block;padding:0.1% 8%;}
+.menu_item {font-size: 110%;}
+/*Home*/
+#home_section {background-size: 1400px;background-image: url(images/home_bg.png); background-repeat: no-repeat; background-position: bottom;background-position-x: 0;}
+#home_title { font-size: 160%; width: fit-content; position: relative; top: 30%; left: 50%;}
+/*Vlaues*/
+#values_section {position: relative; background-size: 800px;background-image:url(images/value_picture.png); background-repeat: no-repeat;background-position: bottom;background-position-x: 45%; background-position-y:70%;}
+#value_title {width: 100%; position: relative; top: 100px;text-align: center;}
+#value_item1 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 250px; left: 52.5%}
+#value_item2 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 270px; left: 55%}
+#value_item3 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 290px; left: 57.5%}
+#value_item4 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 315px; left: 62.5%}
+#value_item5 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 335px; left: 65%}
+#value_item6 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 360px; left: 67.5%}
+/*About Us*/
+#about_title {text-align: center; top: 216%; left: 46%; position: absolute;}
+#about_seb_sections {position: absolute; height: 100%; padding: 0 5%;}
+.about_sub_image {width: 50%; height: 120%; display: inline-block;}
+.about_sub_text {width: 37%; height: fit-content; position: absolute; display: inline-block;}
+#about_1 {width: 100%; height: 40%; position: absolute;}
+#about_1 .about_sub_image { width: 80%; position: relative; background-image:url(images/about_1.png); left: -12%; top: -10%;}
+#about_1 .about_sub_text {top: 25%; left: 50%;}
+#about_2 {width: 100%; height: 40%; position: absolute;}
+#about_2 .about_sub_image {width: 30%; position: relative; background-image:url(images/about_2.png); top: 85%; left: 55%;}
+#about_2 .about_sub_text {top: 110%; left: 12%;}
+/*Contact Us*/
+#contact_title {text-align: center; position: relative;top: 10%;}
+#contact_sub_sections {width: 30% ; position: relative;left: 27%; top: 5%; padding: 6% 6%;}
+#contact_sub_sections p  {position: absolute; top: 25%; display: inline-block; padding: 0 20% ; margin: 0;}
+#contact_phone .image {background-image: url(images/phone_logo.png);}
+#contact_mail .image {background-image: url(images/mail_logo.png);}
+#contact_location .image {background-image: url(images/location_logo.png);}
+#contact_phone, #contact_mail, #contact_location {position: relative;}
+#contact_sub_sections .image {width: 45px; height: 45px; display: inline-block;}
+/*Footer*/
+#footer {background-color: rgb(40,30,70); position:relative ; bottom:0 ; padding: 2% 20%;}
+.section {background-color: rgb(246,246,246);}
+#footer div{color: white !important;}
+#footer_logo {display: inline-block; position: relative; left: -15%;}
+#footer_logo .image{width: 400px; height: 200px; background-image: url(images/logo_big.png);}
+#footer_text{ position: relative; left: 0%;}
+#footer_links { display: inline-block; padding: 2% 0 2% 50%; position: relative ; left: 15%; top: -60px ;}
+#footer_links p{text-decoration: underline;}
+#footer_links a{display: block; text-decoration: none; color: white !important;}
